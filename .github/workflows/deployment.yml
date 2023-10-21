@@ -2,7 +2,7 @@ name: Node JS application
 on: push
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest@v3
     steps:
       - name: Get code
         uses: actions/checkout
