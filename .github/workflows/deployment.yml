@@ -2,10 +2,10 @@ name: Node JS application
 on: push
 jobs:
   deploy:
-    runs-on: ubuntu-latest@v3
+    runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: actions/checkout
+        uses: actions/checkout@v4
       - name: Install dependencies
         run: npm 
       - name: Lint
